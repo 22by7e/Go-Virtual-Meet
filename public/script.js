@@ -122,7 +122,7 @@ const setStopVideo = () => {
         <i class="fas fa-video"></i>
         <span>Stop Video</span>
     `
-    document.querySelector('.main__video_button').innerHTML = html;
+    document.querySelector('.main__video_button').addEventListener.innerHTML = html;
 }
 
 const setPlayVideo = () => {
@@ -130,5 +130,5 @@ const setPlayVideo = () => {
         <i class="stop fas fa-video-slash"></i>
         <span>Play Video</span>
     `
-    document.querySelector('.main__video_button').innerHTML = html;
+    document.querySelector('.main__video_button').addEventListener.innerHTML = html;
 }
